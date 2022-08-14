@@ -1,0 +1,50 @@
+* {
+}
+body{
+  background: url(../photo/index.jpg);
+}
+.contain {
+  display: flex;
+  height: 750px;
+  align-items: center;
+  justify-content: center;
+}
+.contain::before{
+  position: absolute;
+  content:"" ;
+  width: 1500px;
+  height: 768px;
+}
+.tou {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+}
+.zj {
+  display: flex;
+  justify-content: center;
+}
+.haokan{
+  backdrop-filter: blur(200px);
+}
+.shuru{
+  width: 200px;
+  height: 25px;
+  background:none;
+  border: 1px solid;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+.button{
+  position: relative;
+  top: -27px;
+  left:80px;
+  background: none;
+  border: 0px;
+  border-radius: 20px;
+}
+

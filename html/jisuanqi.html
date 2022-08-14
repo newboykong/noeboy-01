@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/jisuanqi.css">
+     <script src="../js/jisuanqi.js"></script>
+  </head>
+  <body>
+  <form name="myform">
+    <table>
+    <tr>
+      <td colspan="4"><input name="disp" class="txt" type="text" value="" disabled/></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input name="vac" class="btn_click" type="button" value="AC" onclick="qingkong()"></td> 
+      <td colspan="2"><input name="vdel" class="btn_click" type="button" value="DEL" onclick="tg()"></td>
+    </tr>
+    <tr>
+      <td><input name="v7" class="btn" type="button" value="7" onclick="shuru(v7.value)"></td> 
+      <td><input name="v8" class="btn" type="button" value="8" onclick="shuru(v8.value)"></td>
+      <td><input name="v9" class="btn" type="button" value="9" onclick="shuru(v9.value)"></td> 
+      <td><input name="vc" class="btn" type="button" value="*" onclick="shuru(vc.value)"></td>
+    </tr>
+    <tr>
+      <td><input name="v4" class="btn" type="button" value="4" onclick="shuru(v4.value)"></td> 
+      <td><input name="v5" class="btn" type="button" value="5" onclick="shuru(v5.value)"></td>
+      <td><input name="v6" class="btn" type="button" value="6" onclick="shuru(v6.value)"></td> 
+      <td><input name="vcc" class="btn" type="button" value="/" onclick="shuru(vcc.value)"></td>
+    </tr>
+    <tr>
+      <td><input name="v1" class="btn" type="button" value="1"onclick="shuru(v1.value)"></td> 
+      <td><input name="v2" class="btn" type="button" value="2" onclick="shuru(v2.value)"></td>
+      <td><input name="v3" class="btn" type="button" value="3" onclick="shuru(v3.value)"></td> 
+      <td><input name="vj" class="btn" type="button" value="-" onclick="shuru(vj.value)"></td>
+    </tr>
+    <tr>
+      <td><input name="v0" class="btn" type="button" value="0" onclick="shuru(v0.value)"></td> 
+      <td><input name="vd" class="btn" type="button" value="." onclick="shuru(vd.value)" ></td>
+      <td><input name="vjj" class="btn" type="button" value="+" onclick="shuru(vjj.value)"></td> 
+      <td><input name="vdd" class="btn" type="button" value="=" onclick="jieguo()"></td>
+    </tr>
+    </table>
+   </form>
+  </body>
+</html>
