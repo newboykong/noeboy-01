@@ -16,7 +16,17 @@
     backdrop-filter: blur(600px);
     border-radius: 50px;
     border: 1px solid rgb(236, 220, 220);
+     animation: animate 5s ease-in-out infinite;
 }
+@keyframes animate {
+    0%,
+    100% {
+      transform: translateY(20px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
 a{
     font-size: 50px;
     font-weight: 700;
