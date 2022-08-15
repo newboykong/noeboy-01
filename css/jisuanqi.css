@@ -14,13 +14,26 @@ td{
 .btn_click{
     width: 302px;
     height: 70px;
-    font-size: x-large;
+    font-size: xx-large;
+    color: black;
 }
 .txt{
     width: 600px;
     height: 100px;
     font-size: x-large;
     text-align: right;
+}
+form {
+  margin: 100px;
+}
+input {
+  background: none;
+  backdrop-filter: blur(500px);
+  border: 1px solid white;
+  border-radius: 30px;
+}
+body {
+  background: url(../photo/jisunqi.jpg);
 }
     
 
