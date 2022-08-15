@@ -14,14 +14,14 @@ td{
 .btn_click{
     width: 302px;
     height: 70px;
-    font-size: xx-large;
-    color: black;
+    font-size: x-large;
 }
 .txt{
-    width: 600px;
-    height: 100px;
-    font-size: x-large;
-    text-align: right;
+  width: 600px;
+  height: 100px;
+  font-size: xx-large;
+  text-align:center;
+  color: black;
 }
 form {
   margin: 100px;
